@@ -3,13 +3,7 @@
 ## Description
 A python package for deep JSON translation.
 
-You just need to specify you template (the JSON document format you want to get from another JSON).
-
-**Real situation where you can use it:**
-
-Sometimes you have to use some API that sends you some mal-formed JSON. 
-It's not a JSON you want to show to your end user or it's not the JSON you want to save in a non relational database.
-Then you specify your dreamed JSON document to extract info from the source JSON you received.
+You just need to specify you template to get all data from another JSON avoiding doing that manually in your code.
 
 # Install 
     pip install easy-json2json
@@ -95,7 +89,3 @@ print(result)
 ## Source Code
 
 [easyjson2json](https://github.com/brworkit/python-package-easy-json2json.git)
-
-## Author
-
-[**2020 brworkit**](https://github.com/brworkit).
